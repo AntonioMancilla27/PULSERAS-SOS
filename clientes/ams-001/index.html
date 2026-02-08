@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SOS Emergencia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #b30000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    button {
+      font-size: 1.3em;
+      padding: 15px;
+      margin: 15px 0;
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+    .play {
+      background: #fff;
+      color: #b30000;
+    }
+    .call {
+      background: #00cc66;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚠️ MENSAJE SOS ⚠️</h1>
+
+  <p>Si estás viendo esta página es porque necesito ayuda inmediata.</p>
+
+  <audio controls>
+    <source src="sos.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <br>
+
+  <a href="tel:+56933818977">
+    <button class="call">📞 LLAMAR AHORA</button>
+  </a>
+
+</body>
+</html>
